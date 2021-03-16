@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheel of Fortune!</title>
+    <script src="./randomWord.js"></script>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+    <h1 id='wheelOfFortune'> Welcome to greii-graii wheel of fortune!</h1>
+    <div id="startButton">
+        <button id="start">Start</button>
+    </div>
+    <div id="rowHolder"></div>
+<!-- You can uncomment out this form when you are ready to use it    -->
+  <form id="letter-form">
+      <input id='firstConstant' type="text" placeholder="Enter a consonant"/>
+      <input id='secondConstant'type="text" placeholder="Enter a consonant"/>
+      <input id='thirdConstant'type="text" placeholder="Enter a consonant"/>
+      <input id='vowel'type="text" placeholder="Enter a vowel"/>
+      <input id="submitButton" type="submit" value="Submit Letters"/>
+  </form>
+  <form id="letterGuess">
+        <!-- the alert letter Guessed should come here -->
+  </form>
+</body>
+</html>

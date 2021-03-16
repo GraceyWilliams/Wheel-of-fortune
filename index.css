@@ -1,0 +1,107 @@
+.cell {
+    border: 5px solid rgb(199, 233, 49);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    font-size: 150px;
+    /* background-color: brown; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+h1 {
+    color: rgb(2, 185, 176);
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#rowHolder {
+    margin: 10px;
+    text-align: center;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+#startButton {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    color: rgb(2, 185, 176);
+    font-size: 20px;
+    border-color: white;
+    padding: 10px 20px;
+    transition: 200ms transform;
+    background-color: rgb(199, 233, 49);
+    border-radius: 25% 10%;
+}
+button:hover {
+    cursor: pointer;
+    transform: translate(-2px);
+}
+
+#letter-form {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* color: rgb(199, 233, 49);
+    background-color: rgb(2, 185, 176); */
+
+}
+
+#firstConstant {
+    padding: 15px;
+    margin: 2.5px;
+    text-align: center;
+    background-color: rgb(199, 233, 49);
+    color: rgb(2, 185, 176);
+}
+
+#secondConstant {
+    padding: 15px;
+    margin: 2.5px;
+    text-align: center;
+    color: rgb(199, 233, 49);
+    background-color: rgb(2, 185, 176);
+}
+
+#thirdConstant {
+    padding: 15px;
+    margin: 2.5px;
+    text-align: center;
+    background-color: rgb(199, 233, 49);
+    color: rgb(2, 185, 176);
+}
+
+#vowel {
+    padding: 15px;
+    margin: 2.5px;
+    text-align: center;
+    color: rgb(199, 233, 49);
+    background-color: rgb(2, 185, 176);
+}
+
+#submitButton {
+    font-size: 20px;
+    border-color: white;
+    padding: 10px 20px;
+    border-radius: 25% 10%;
+    transition: 200ms transform;
+    color: rgb(199, 233, 49);
+    background-color: rgb(2, 185, 176);
+}
+
+#submitButton:hover {
+    cursor: pointer;
+    transform: translate(-2px);
+}
